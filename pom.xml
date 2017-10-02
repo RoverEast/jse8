@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>by.iba.gomel</groupId>
+    <artifactId>jse8-root</artifactId>
+    <version>1.0.0</version>
+  </parent>
+
+  <groupId>by.iba.gomel.dcharapianka</groupId>
+  <artifactId>jse8</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>dcharapianka-jse8</name>
+  <description>Solution for exercises of "Java Standard Edition (JSE) 8" OpenOLAT learning course.</description>
+
+  <organization>
+    <name>IBA-Gomel-Park</name>
+    <url>http://www.gomel.iba.by/</url>
+  </organization>
+
+
+
+  <modules>
+    <module>getting-started-task</module>
+    <module>concepts-task-one</module>
+    <module>variable-task</module>
+    <module>arrays-task</module>
+    <module>primitive-conversion-task</module>
+    <module>operators-task-one</module>
+    <module>operators-task-two</module>
+    <module>operators-task-three</module>
+    <module>statements-task-one</module>
+    <module>statements-task-two</module>
+
+    <module>statements-task-three</module>
+    <module>statements-task-four</module>
+    <module>classes-task-one</module>
+    <module>objects-task-one</module>
+    <module>objects-task-two</module>
+    <module>classes-task-two</module>
+    <module>packages-task-one</module>
+    <module>packages-task-two</module>
+    <module>interfaces-task-one</module>
+    <module>interfaces-task-two</module>
+    <module>interfaces-task-three</module>
+    <module>inheritance-task-one</module>
+    <module>inheritance-task-two</module>
+    <module>inheritance-task-three</module>
+    <module>Strings-task-one</module>
+    <module>strings-task-two</module>
+    <module>strings-task-three</module>
+    <module>exceptions-task-one</module>
+    <module>exceptions-task-two</module>
+    <module>date-time-task-one</module>
+    <module>date-time-task-two</module>
+    <module>date-time-task-three</module>
+    <module>wrapper-task-one</module>
+    <module>wrapper-task-two</module>
+    <module>wrapper-task-three</module>
+    <module>wrapper-task-four</module>
+    <module>nested-classes-task</module>
+    <module>nested-classes-task-two</module>
+    <module>nested-classes-task-three</module>
+    <module>nested-classes-task-four</module>
+    <module>annotations-task-one</module>
+    <module>annotation-task-two</module>
+    <module>annotations-task-three</module>
+    <module>lambda-task-one</module>
+    <module>lambda-task-two</module>
+    <module>lambda-task-three</module>
+    <module>assertions-task-one</module>
+    <module>enum-types-task-one</module>
+    <module>enum-types-task-two</module>
+    <module>regexp-task-one</module>
+    <module>regExps-task-two</module>
+    <module>regexp-task-three</module>
+    <module>generics-task-one</module>
+    <module>generics-task-two</module>
+    <module>generics-task-three</module>
+    <module>collections-task-one</module>
+    <module>collections-task-two</module>
+    <module>collections-task-three</module>
+    <module>collections-task-four</module>
+    <module>aggregateoperations-task-one</module>
+    <module>aggregateoperations-task-two</module>
+    <module>aggregateoperations-task-three</module>
+    <module>basicio</module>
+    <module>basicio-task-two</module>
+    <module>basicio-task-three</module>
+  </modules>
+  <issueManagement>
+    <url>https://gml-jbpm.gomel.iba.by/sonarqube/component_issues/index?id=by.iba.gomel.dcharapianka%3Ajse8#resolved=false</url>
+  </issueManagement>
+
+  <ciManagement>
+    <url>https://gml-jbpm.gomel.iba.by/jenkins/job/dcharapianka-jse8/</url>
+    <system>Jenkins</system>
+  </ciManagement>
+</project>
